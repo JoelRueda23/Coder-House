@@ -42,7 +42,7 @@ a{
     font-family: "Chunk";
     font-size: x-large;
     text-align: center;
-    color: black;
+    color: black !important;
     padding: 10px;
 }
 .menu{
@@ -70,7 +70,7 @@ ul li{
     padding: 10px ;
 }
 ul li a:hover{
-    color: rgb(190, 205, 50);
+    color: rgb(190, 205, 50) !important;
 }
 header{
     justify-content: space-between;
@@ -292,7 +292,7 @@ fieldset{
     padding: 50px;
     text-align: center;
 }
-label{
+h2{
     font-family: 'Chunk';
     color:yellow;
 }
@@ -305,4 +305,8 @@ legend{
     font-family: 'Chunk';
     color: yellow;
     font: xx-large;
+}
+label{
+    color: yellow;
+    font-family: 'Chunk';
 }
