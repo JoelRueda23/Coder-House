@@ -286,7 +286,7 @@ p{
 }
 /*INICIO ESTILO CONSULTAS*/
 fieldset{
-    background-image: url(/img/logo-repetido.jpg);
+    background-image: url(./../img/logo-repetido.jpg);
     background-attachment: fixed;
     background-size: cover;
     padding: 50px;
